@@ -1,10 +1,10 @@
 # Minecraft
 ### Mine Minecraft Servers Codes
 
--建立一个screen
+- 建立一个screen
 screen
 
--使用 Mcsmanager 面板 
+- 使用 Mcsmanager 面板 
 https://github.com/Suwings/MCSManager
 
 ```
@@ -28,18 +28,18 @@ https://blog.csdn.net/weixin_36171533/article/details/83657732
 
 服务器下载太慢了，影响服务器，改用OSS下载飞快
 
--在服务器安装ossutil
+- 在服务器安装ossutil
 ```
 ./ossutil config -e oss.aliyuncs.com -i YourAccessKeyID -k YourAccessKeySecret
 生成的配置文件在/root/.ossutilconfig
 ```
--上传单个文件：
+- 上传单个文件：
 ```
 cd "ossutil文件所在目录"
 ./ossutil cp world.zip oss://kianakiferi
 ```
 
--上传文件夹：
+- 上传文件夹：
 ```
 cd "ossutil文件所在目录"
 ./ossutil cp -r world oss://kianakiferi
