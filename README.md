@@ -13,8 +13,6 @@ npm start
 node -v
 ```
 
-
------------------
 ### Minecraft Overviewer
 http://docs.overviewer.org/en/latest/
 
